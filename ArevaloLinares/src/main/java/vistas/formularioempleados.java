@@ -57,7 +57,7 @@ public class formularioempleados extends javax.swing.JFrame {
         });
 
         jTextField4.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jTextField4.setText("--FORMULARIO DE EMPLEADOS--");
+        jTextField4.setText("::::FORMULARIO DE EMPLEADOS::::");
         jTextField4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField4ActionPerformed(evt);
@@ -107,15 +107,15 @@ public class formularioempleados extends javax.swing.JFrame {
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 516, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(14, 14, 14))
             .addGroup(layout.createSequentialGroup()
-                .addGap(234, 234, 234)
-                .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, 406, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jButton1)
                 .addGap(136, 136, 136)
                 .addComponent(jButton2)
                 .addGap(282, 282, 282))
+            .addGroup(layout.createSequentialGroup()
+                .addGap(208, 208, 208)
+                .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

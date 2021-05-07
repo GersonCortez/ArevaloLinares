@@ -38,7 +38,5 @@ public class Empleado {
     public void setCantidad(int cantidad) {
         this.cantidad = cantidad;
     }
-    
-    
-    
+      
 }
