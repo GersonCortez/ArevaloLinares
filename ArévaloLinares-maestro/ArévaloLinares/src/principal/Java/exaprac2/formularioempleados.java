@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package exaprac2;
-
+//No me aparece el archivo
 import javax.swing.table.DefaultTableModel;
 
 /**
